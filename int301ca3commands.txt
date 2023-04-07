@@ -1,0 +1,10 @@
+For hwinfo:
+sudo apt-get install hwinfo
+sudo hwinfo --short
+sudo hwinfo --short > ca3hardware.txt
+cat hardware.txt
+
+For inxi:
+sudo apt-get install inxi
+hostnamectl
+inxi -Fxz
